@@ -1,5 +1,4 @@
 
-console.log("dmak;mnck,")
 function validateMobile(mobile) {
     const mobileRegex = /^[0-9]{5,20}$/;
     if (!mobileRegex.test(mobile)) {
