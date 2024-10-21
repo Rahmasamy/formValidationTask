@@ -44,10 +44,7 @@ document.getElementById('formvaidation').addEventListener('submit', (e) => {
     const email = document.getElementById('email').value;
     const mobile = document.getElementById('mobile').value;
    
-    // const spanemail=document.getElementById('emailspan');
-    // const mobilespan=document.getElementById('mobilespan');
-    // spanemail.innerHTML=email;
-    // mobilespan.innerHTML=mobile;
+   
       
     const isEmailValid = validateEmail(email);
     const isMobileValid = validateMobile(mobile);
